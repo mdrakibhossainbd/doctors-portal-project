@@ -49,9 +49,9 @@ function App() {
             <Appointment></Appointment>
           </Route>
 
-          <PrivateRoute path="/adminpanel">
+          <Route path="/adminpanel">
             <AdminPanel></AdminPanel>
-          </PrivateRoute>
+          </Route>
         </Switch>
       </Router>
     </UserContext.Provider>
